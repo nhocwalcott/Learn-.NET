@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="opensysdb" Class="NhanVienDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=bpvn-hrsrv;Initial Catalog=opensysdb;User ID=sa" SettingsObjectName="WindowsFormsApplication2.Properties.Settings" SettingsPropertyName="opensysdbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QLCA1" Member="QLCA1s">
+    <Type Name="QLCA1">
+      <Column Name="SHIFT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SHIFTNAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="START" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="ENDTIME" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
